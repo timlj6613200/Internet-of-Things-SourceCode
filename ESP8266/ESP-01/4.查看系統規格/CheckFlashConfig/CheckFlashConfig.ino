@@ -1,12 +1,9 @@
 /* 
- ESP8266 CheckFlashConfig by Markus Sattler
- 
- This sketch tests if the EEPROM settings of the IDE match to the Hardware
- 
+查看ESP8266　晶片組態  
  */
 
 void setup(void) {
-    Serial.begin(115200);
+    Serial.begin(115200);      //　註冊一個Serial 115200
 }
 
 void loop() {
